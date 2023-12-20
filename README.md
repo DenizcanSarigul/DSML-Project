@@ -38,6 +38,18 @@ For this challenge we applied two kinds of techniques of text representation. Th
 
 ## 2. Results
 
+## Résultats des Modèles
+
+| Modèle                   | Train Accuracy | Train Precision | Train Recall | Train F1-Score | Kaggle Test Accuracy |
+|--------------------------|----------------|------------------|--------------|------------------|-----------------------|
+| Logistic Regression      | 0.451          | 0.443            | 0.449        | 0.442            | 0.465                |
+| kNN                      | 0.291          | 0.380            | 0.286        | 0.261            | -                      |
+| Decision Tree            | 0.302          | 0.297            | 0.300        | 0.295            | 0.341                |
+| Random Forests           | 0.321          | 0.364            | 0.317        | 0.285            |--                   |
+| MultinominalNaiveBayes  | 0.454          | 0.469            | 0.452        | 0.451            | 0.470                |
+| CamamBert                | 0.581          | 0.593            | 0.581        | 0.580            | 0.581                |
+
+
 The table below shows the best results for each of our models. You will notice that for the models K Nearest Neighbours and Decision Tree, we did not 
 
 ## 3. Models
