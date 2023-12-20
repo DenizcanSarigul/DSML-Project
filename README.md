@@ -33,8 +33,12 @@ Once we created our model, we were given a test data set on which we could use t
 
 ## 2. Methodology
 
-For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture. 
+For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation and classification with conventionla models such sa Logistic Regression, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture. 
 
+
+## 2. Results
+
+The table below shows the best results for each of our models. You will notice that for the models K Nearest Neighbours and Decision Tree, we did not 
 
 ## 3. Models
 
