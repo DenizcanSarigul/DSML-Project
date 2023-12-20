@@ -14,7 +14,7 @@ For this challenge, we were given a list of texts, in French, which were each la
 
 ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/a96442ec-661b-4fac-b730-89fc6edb1998)
 
-*Figure 1: First 5 values of the list*
+*Figure 1: First 5 values of the list (training data)*
 
 
 
