@@ -124,7 +124,8 @@ For this model, use the epoch method for the evaluation method. It turns out tha
 In addition, figure 8 is a graph shows the accuracy performances of different argurment combinations. The graph demonstrates that changing the arguments did not create a variance in accuracies, ultimately not being significantly helpful. 
 
 
-![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/541e649d-bad7-485e-8314-8ea4f66faa7b)
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/4430853f-9d3b-4cfe-9c7c-3d5c0f94a339)
+
 
 *Figure 8: train accuracies graph*
 
