@@ -114,6 +114,8 @@ We then store the encodings into an array and create a new Data Frame. The data 
 The model is defined using AutoModelForSequenceClassification method, and use ‘camambert-base’. Before training, we define our training arguments. For this model, use the epoch method for the evaluation method. Once that’s done, we then define the trainer and run the training.
 
 
+#warmup_steps=200, weight_decay=0.01, Dropout(0.3), learning_rate=3e-5, 
+
 
 
 ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/16ebbd86-1ef5-4c52-b7a5-4ef2bfc45b6b)
