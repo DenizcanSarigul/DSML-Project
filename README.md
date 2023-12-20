@@ -38,7 +38,7 @@ For this challenge we applied two kinds of techniques of text representation. Th
 
 ## 2. Results
 
-The table below shows the best results for each of our models. You will notice that for the models K Nearest Neighbours and Random Forests, we did not obtain a test accuracy as we did not submit our results. This is due to the fact that our train results were low, thus he did not consider submitting our predictions as we knew that the test accuracy would be to low.
+The table below shows the best results for each of our models. You will notice that for the models K Nearest Neighbours and Random Forests, we did not obtain a test accuracy as we did not submit our results. Due to the low training accuracy results, we did not consider submitting our predictions as we knew that the test accuracy would be to low.
 
 ## Table of our best Results
 
