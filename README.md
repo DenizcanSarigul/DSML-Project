@@ -88,13 +88,13 @@ Figure 5 is the confusion matrix ot our best result with MultinominalNaiveBayes.
 
 *Figure 5: confusion matrix with MultinominalNaiveBayes*
 
-### 3.2 CamamBERT
+### 3.2 CamemBERT
 We were briefly introduced to NLP models in class for sentiment analysis, but not multi-label classification. We researched different ways of implementing such a model and found a YouTube video tutorial on how to use BERT for text classification. The producer of the video also shared a GitHub repository where we could find all the required material. 
 
 - YouTube video link: [Tutorial](https://www.youtube.com/watch?v=TmT-sKxovb0&t=608s)
 - GitHub repository link: [GitHub](https://github.com/RajKKapadia/Transformers-Text-Classification-BERT-Blog)
 
-The code provided by Mr. Kapadia was already very detailed and functional. As the original code was written for a binary classification, we changed what was needed to fit a multi-label classification problem. In addition, we changed the NLP model to CamamBERT. The model is found in the transformers library from HuggingFace.
+The code provided by Mr. Kapadia was already very detailed and functional. As the original code was written for a binary classification, we changed what was needed to fit a multi-label classification problem. In addition, we changed the NLP model to CamemBERT. The model is found in the transformers library from HuggingFace.
 
 For this model, the training is done in one file, and the testing in a separate one.
 
