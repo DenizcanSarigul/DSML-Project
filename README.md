@@ -1,7 +1,10 @@
 # DSML UNIL_Alpina
 
-Welcome to our GitHub repository for our text classification challenge.
-This page is the report of our journey through this challenge. This  report will you take you through the steps that we took to get to our results, as well as the difficulties. 
+Welcome to our GitHub repository,
+
+Here you will find the files which we used for our participation in the text classification challenge "Detecting the difficulty level of French texts".
+
+This ReadMe page is used as report of our journey through this challenge. You will be taken through the steps that we took to get to our results, as well as the difficulties we encountered. 
 
 ## Introduction
 
@@ -11,7 +14,7 @@ For this challenge, we were given a list of texts, in French, which were each la
 
 ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/a96442ec-661b-4fac-b730-89fc6edb1998)
 
-*Figure 1: First 5 values of the list*
+*Figure 1: First 5 values of the list (training data)*
 
 
 
@@ -30,8 +33,12 @@ Once we created our model, we were given a test data set on which we could use t
 
 ## 2. Methodology
 
-For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture (camembert-model.fr, n.d.). 
+For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation and classification with conventionla models such sa Logistic Regression, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture. 
 
+
+## 2. Results
+
+The table below shows the best results for each of our models. You will notice that for the models K Nearest Neighbours and Decision Tree, we did not 
 
 ## 3. Models
 
