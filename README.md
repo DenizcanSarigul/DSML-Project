@@ -140,6 +140,6 @@ Despite our efforts to achieve better test accuracy, we struggled to improve our
 
 #### Link to our YouTube video 
 
-[YouTube video]([https://youtu.be/RggW_nbjA-c])
+[YouTube video](https://youtu.be/RggW_nbjA-c)
 
 
