@@ -4,16 +4,15 @@ UNIL_Alpina
 Welcome to our GitHub repository for our text classification challenge.
 This page is the report of our journey through this challenge. This  report will you take you through the steps that we took to get to our results, as well as the difficulties. 
 
-1. Introduction
-For this challenge, we were given a list of texts, in French, which were each labelled with their according level of difficulty (A1, A2, B1, B2, C1, C2).  The task of the challenge was to develop a machine learning model, which could predict the level of difficulty for new texts/sentences.  Figure 1, shows an extract of our data.
+Introduction
 
+For this challenge, we were given a list of texts, in French, which were each labelled with their according level of difficulty (A1, A2, B1, B2, C1, C2).  The task of the challenge was to develop a machine learning model, which could predict the level of difficulty for new texts/sentences.  Figure 1, shows an extract of our data.
 
 
 
 ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/a96442ec-661b-4fac-b730-89fc6edb1998)
 
 Figure 1, first 5 values of the list
-
 
 
 
