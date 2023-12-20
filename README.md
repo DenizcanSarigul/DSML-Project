@@ -102,7 +102,8 @@ For this model, the training is done in one file, and the testing in a separate 
 Essentially, the important aspects of the code are the processing of the data, where the cleaning is done, and the training arguments. 
 We start by defining our tokenizer and then the processing begins. Figure 5, is a snapshot of how the data is cleaned and, encoded and labelled. 
 
- ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/7d78cf10-1c00-493f-a7f1-066f2c90bdfb)
+ ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/83d2e08a-3c81-42df-8081-6e68deccd9cc)
+
 
 *Figure 6: Processing of the data*
 
@@ -119,7 +120,8 @@ We start by defining our tokenizer and then the processing begins. Figure 5, is 
 We then store the encodings into an array and create a new Data Frame. The data is then split, and is then ready to be used for the training.
 The model is defined using AutoModelForSequenceClassification method, and naturally we insert the ‘camambert-base’. Before training, we define our training arguments. For this model, use the epoch method for the evaluation method. Once that’s done, we then define the trainer and run the training.
 
-![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/46d4c49c-9d39-458a-b47d-5ba3b2e1ed08)
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/e42b4c3a-156a-48be-9c79-f5d5943b1065)
+
 
 *Figure 7: Defining the model, training arguments, and trainer*
 
