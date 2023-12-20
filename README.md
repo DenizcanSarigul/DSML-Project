@@ -28,14 +28,14 @@ Once we created our model, we were given a test data set on which we could use t
 
 
 
-##2. Methodology
+## 2. Methodology
 
 For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture (camembert-model.fr, n.d.). 
 
 
-##3. Models
+## 3. Models
 
-###3.1 Logistic Regression, K Nearest Neighbours, Decision Tree, Random Forests & Multinominal Naïve Bayes
+### 3.1 Logistic Regression, K Nearest Neighbours, Decision Tree, Random Forests & Multinominal Naïve Bayes
 
 For this first series of classification methods, we decided to transformed our text using TI-DF representation. As a tokenizer, we defined our own tokenizer function using methods from the Spacy, String, and nltk.stem.snowball libraires. 
 
@@ -76,7 +76,7 @@ After conducting a pipeline for each classification method, hence creating a mod
 
 As one may note, our results struggle to surpass a test accuracy of 0.5. Therfore, we decided to explore the Natural Learning Processing Model CamamBERT to improve our results. 
 
-###3.2 CamamBERT
+### 3.2 CamamBERT
 We were briefly introduced to NLP models in class for sentiment analysis, but not multi-label classification. Thus, we researched different ways of implementing such a model and found a YouTube video tutorial on how to use BERT for text classification. The producer of the video also shared a GitHub repository where we could find all the required material. 
 
 - YouTube video link: [Tutorial](https://www.youtube.com/watch?v=TmT-sKxovb0&t=608s)
