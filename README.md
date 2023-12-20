@@ -110,16 +110,9 @@ We start by defining our tokenizer and then the processing begins. Figure 5, is 
 
 
 
-
-
-
-
-
-
-
-
 We then store the encodings into an array and create a new Data Frame. The data is then split, and is then ready to be used for the training.
 The model is defined using AutoModelForSequenceClassification method, and naturally we insert the ‘camambert-base’. Before training, we define our training arguments. For this model, use the epoch method for the evaluation method. Once that’s done, we then define the trainer and run the training.
+
 
 
 
