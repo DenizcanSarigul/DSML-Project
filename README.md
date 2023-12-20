@@ -8,10 +8,11 @@ This page is the report of our journey through this challenge. This  report will
 For this challenge, we were given a list of texts, in French, which were each labelled with their according level of difficulty (A1, A2, B1, B2, C1, C2).  The task of the challenge was to develop a machine learning model, which could predict the level of difficulty for new texts/sentences.  Figure 1, shows an extract of our data.
 
 
+
+
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/a96442ec-661b-4fac-b730-89fc6edb1998)
+
 Figure 1, first 5 values of the list
-
-
-
 
 
 
@@ -19,10 +20,11 @@ Figure 1, first 5 values of the list
 
 Once we created our model, we were given a test data set on which we could use to find how accurate our model was. This set of data was simply a list of texts/sentences without their labels (level of difficulty). Figure 2, shows an extract of this test data.
  
+
+
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/db1cde80-f61f-4256-b700-3d1f22abdef2)
+
 Figure 2, first 5 values of the test list
-
-
-
 
 
 
@@ -38,11 +40,12 @@ For this first series of classification methods, we decided to transformed our t
 Naturally, beforehand we first split our data into 80% train data (X_train) and 20% test data(y_test).
 The tokenizer function we used was originally designed for the English language and designed by our Teaching Assistants: Stergios Konstantinidis and Ludovic Mareemootoo. We then modified it to suit the French language. Below, Figure 3 is a snapshot of our tokenizer. 
  
+
+
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/46140ef9-4f06-4b96-bc6d-bfc01fc305de)
+
+
 Figure 3, tokenizer
-
-
-
-
 
 
 
@@ -53,8 +56,10 @@ Figure 3, tokenizer
 
 To construct our model, we used Pipeline method from the sklearn.pipeline library, in which we inserted our Vectorizer, TI-DF transformer, and classification method.  Figure 4, shows and example of the Pipeline we used. 
  
-Figure 4, Pipline example using Logistic Regression as classification method.
 
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/d07f144b-6232-468d-85b6-571405495a54)
+
+Figure 4, Pipline example using Logistic Regression as classification method.
 
 
 
@@ -77,7 +82,9 @@ For this model, the training is done in one file, and the testing in a separate 
 Training 3.2.1
 Essentially, the important aspects of the code are the processing of the data, where the cleaning is done, and the training arguments. 
 We start by defining our tokenizer and then the processing begins. Figure 5, is a snapshot of how the data is cleaned and, encoded and labelled. 
- 
+
+ ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/7d78cf10-1c00-493f-a7f1-066f2c90bdfb)
+
 Figure 6, processing of the data
 
 
@@ -91,8 +98,10 @@ Figure 6, processing of the data
 
 
 We then store the encodings into an array and create a new Data Frame. The data is then split, and is then ready to be used for the training.
-The model is defined using AutoModelForSequenceClassification method, and naturally we insert the ‘camambert-base’). Before training, et define our training arguments. For this model, use the epoch method for the evaluation method. Once that’s done, we then define the trainer and run the training. 
- 
+The model is defined using AutoModelForSequenceClassification method, and naturally we insert the ‘camambert-base’). Before training, et define our training arguments. For this model, use the epoch method for the evaluation method. Once that’s done, we then define the trainer and run the training.
+
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/46d4c49c-9d39-458a-b47d-5ba3b2e1ed08)
+
 Figure 7, defining the model, training arguments and trainer.
 
 
