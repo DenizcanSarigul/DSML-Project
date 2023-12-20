@@ -33,13 +33,13 @@ Once we created our model, we were given a test data set on which we could use t
 
 ## 2. Methodology
 
-For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation and classification with conventionla models such sa Logistic Regression, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture. 
+For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation and classification with conventional models such as Logistic Regression, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture. 
 
 
 ## 2. Results
 The table below shows the best results for each of our models. You will notice that for the models K Nearest Neighbours and Random Forests, we did not obtain a test accuracy as we did not submit our results. Due to the low training accuracy results, we did not consider submitting our predictions as we knew that the test accuracy would be low.
 
-We started the project by exploring all possibilites with the conventional classificataion models seen in class, but quickly realised that achieving a high level of accuracy would be challenging. Therefore, we decided to exlore the avenue of NLP models and found that Camambert was well suited for our project, and eventually generated a better score of 0.581.
+We started the project by exploring all possibilites with the conventional classificataion models seen in class, but quickly realised that achieving a high level of accuracy would be challenging. Therefore, we decided to explore the avenue of NLP models and found that Camambert was well suited for our project, and eventually generated a better score of 0.581.
 
 ## Table of our best Results
 
@@ -57,14 +57,15 @@ We started the project by exploring all possibilites with the conventional class
 
 ### 3.1 Logistic Regression, K Nearest Neighbours, Decision Tree, Random Forests & Multinominal Naïve Bayes
 
-For this first series of classification methods, we decided to transforme our text using TI-DF representation. As a tokenizer, we defined our own tokenizer function using methods from the Spacy, String, and nltk.stem.snowball libraires. 
+For this first series of classification methods, we decided to transform our text using TI-DF representation. As a tokenizer, we defined our own tokenizer function using methods from the Spacy, String, and nltk.stem.snowball libraires. 
 
 Naturally, beforehand we first split our data into 80% train data (X_train) and 20% test data (y_test).
 The tokenizer function we used was originally designed for the English language and designed by our Teaching Assistants: Stergios Konstantinidis and Ludovic Mareemootoo. We then modified it to suit the French language. Below, Figure 3 is a snapshot of our tokenizer. 
  
 
 
-![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/46140ef9-4f06-4b96-bc6d-bfc01fc305de)
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/a6c1a775-137f-4f11-89a8-f3001721e6b1)
+
 
 
 *Figure 3: Tokenizer*
