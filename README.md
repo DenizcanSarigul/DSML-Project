@@ -38,7 +38,9 @@ For this challenge we applied two kinds of techniques of text representation. Th
 
 ## 2. Results
 
-## Résultats des Modèles
+The table below shows the best results for each of our models. You will notice that for the models K Nearest Neighbours and Random Forests, we did not obtain a test accuracy as we did not submit our results. This is due to the fact that our train results were low, thus he did not consider submitting our predictions as we knew that the test accuracy would be to low.
+
+## Table of our best Results
 
 | Modèle                   | Train Accuracy | Train Precision | Train Recall | Train F1-Score | Kaggle Test Accuracy |
 |--------------------------|----------------|------------------|--------------|------------------|-----------------------|
@@ -50,7 +52,7 @@ For this challenge we applied two kinds of techniques of text representation. Th
 | CamamBert                | 0.581          | 0.593            | 0.581        | 0.580            | 0.581                |
 
 
-The table below shows the best results for each of our models. You will notice that for the models K Nearest Neighbours and Decision Tree, we did not 
+
 
 ## 3. Models
 
