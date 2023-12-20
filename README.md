@@ -130,7 +130,9 @@ In addition, figure 8 is a graph shows the accuracy performances of different ar
 *Figure 8: train accuracies graph*
 
 
-#### 3.2.2 Testing 
+### 4. Takeaway
 
-In addition, we noticed that after the second or third epoch, the model would tend to over-fit. Meaning that the training loss would start to decrease and the validation loss increase. Even if the model would over-fit, the accuracy of the training test and the accuracy of the unlabelled test data would stay at a similar rate, which suggests that the both data sets are similar (come from the same source) wihch would explain why we would get a better result with 10 epochs. Consequently, this would create issues when using the model with external data which isn't similar at all. 
+During our testing rounds, we noticed that after the second or third epoch, model would tend to over-fit. Meaning that the training loss surpasses the validation loss Despite this, once applied for testing witht the unlabelled data, we still received strong accuracies for our predictions. Which theoretically shouldn't be the case. Instead, this suggests that both the train data and the test data are very similar, perhaps orginiating from the same source.  
+
+Despite our efforts in trying to achieve a better test accuracy, we struggled to improve our best score of 0.581. We tried pre-processing the data in different ways and fine-tunning the arguments, but none of those attempts seemed to work. Overall, the simpler or less detailed our fine-tunning lead to better results. This leaves us asking our selves why our model behaved this way and what we could of done to improve it. 
 
