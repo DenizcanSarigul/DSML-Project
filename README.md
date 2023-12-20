@@ -70,12 +70,7 @@ The tokenizer function we used was originally designed for the English language 
 
 *Figure 3: Tokenizer*
 
-
-
-
-
-
-
+Initially, in our tokenizer, we include code to remove the stopwords and punctions. However, we noticed overtime these actually limited the accuracy of our model. Therefore, we decided to remove them. After multipile tests, we came to the astoninishing observation we achieved better results without a tokenizer at all. Hence, the figures in our results do not include a custom tokenizer but instead the default tokenizer in the Vectorizer when iniated in the Pipeline. 
 
 To construct our model, we used the Pipeline method from the sklearn.pipeline library, in which we inserted our vectorizer, TI-DF transformer, and classification method.  Figure 4, shows and example of the Pipeline we used. 
  
