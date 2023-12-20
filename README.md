@@ -70,7 +70,7 @@ The tokenizer function we used was originally designed for the English language 
 
 *Figure 3: Tokenizer*
 
-Initially, in our tokenizer, we include code to remove the stopwords and punctions. However, we noticed overtime these actually limited the accuracy of our model. Therefore, we decided to remove them. After multipile tests, we came to the astoninishing observation we achieved better results without a tokenizer at all. Hence, the figures in our results do not include a custom tokenizer but instead the default tokenizer in the Vectorizer when iniated in the Pipeline. 
+Initially, in our tokenizer, we included code to remove the stopwords and punctions. However, we noticed overtime these actually limited the accuracy of our model. Therefore, we decided to remove them. After multipile tests, we came to the astoninishing observation we achieved better results without a tokenizer at all. Hence, the figures in our results do not include a custom tokenizer but instead the default tokenizer in the Vectorizer when iniated in the Pipeline. 
 
 To construct our model, we used the Pipeline method from the sklearn.pipeline library, in which we inserted our vectorizer, TI-DF transformer, and classification method.  Figure 4, shows and example of the Pipeline we used. 
  
@@ -81,6 +81,12 @@ To construct our model, we used the Pipeline method from the sklearn.pipeline li
 
 We then used the model on our unllabeled test data mentioned above to create our predictions. The results of those are found above in section 2.
 
+Figure 5 is the confusion matrix ot our best result with MultinominalNaiveBayes.
+
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/60e96485-13d5-4a27-abeb-54eb118d32fc)
+
+*Figure 5: confusion matrix with MultinominalNaiveBayes.
+
 ### 3.2 CamamBERT
 We were briefly introduced to NLP models in class for sentiment analysis, but not multi-label classification. We researched different ways of implementing such a model and found a YouTube video tutorial on how to use BERT for text classification. The producer of the video also shared a GitHub repository where we could find all the required material. 
 
@@ -89,7 +95,8 @@ We were briefly introduced to NLP models in class for sentiment analysis, but no
 
 The code provided by Mr. Kapadia was already very detailed and functional. As the original code was written for a binary classification, we changed what was needed to fit a multi-label classification problem. In addition, we changed the NLP model to CamamBERT. The model is found in the transformers library from HuggingFace.
 
-For this model, the training is done in one file, and the testing in a separate one. 
+For this model, the training is done in one file, and the testing in a separate one.
+
 #### 3.2.1 Training 
 
 Essentially, the important aspects of the code are the processing of the data, where the cleaning is done, and the training arguments. 
@@ -116,9 +123,6 @@ The model is defined using AutoModelForSequenceClassification method, and natura
 
 *Figure 7: Defining the model, training arguments, and trainer*
 
-
-
-![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/60e96485-13d5-4a27-abeb-54eb118d32fc)
 
 
 
