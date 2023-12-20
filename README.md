@@ -50,7 +50,7 @@ We started the project by exploring all possibilites with the conventional class
 | Decision Tree            | 0.302          | 0.297            | 0.300        | 0.295            | 0.341                |
 | Random Forests           | 0.321          | 0.364            | 0.317        | 0.285            |--                   |
 | MultinominalNaiveBayes  | 0.454          | 0.469            | 0.452        | 0.451            | 0.470                |
-| CamamBert                | 0.581          | 0.593            | 0.581        | 0.580            | 0.581                |
+| CamamBert                | 0.580          | 0.593            | 0.581        | 0.580            | 0.581                |
 
 
 ## 3. Models
