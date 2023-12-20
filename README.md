@@ -1,7 +1,10 @@
 # DSML UNIL_Alpina
 
-Welcome to our GitHub repository for our text classification challenge.
-This page is the report of our journey through this challenge. This  report will you take you through the steps that we took to get to our results, as well as the difficulties. 
+Welcome to our GitHub repository,
+
+Here you will find the files which we used for our participation in the text classification challenge "Detecting the difficulty level of French texts".
+
+This ReadMe page is used as report of our journey through this challenge. You will be taken through the steps that we took to get to our results, as well as the difficulties we encountered. 
 
 ## Introduction
 
