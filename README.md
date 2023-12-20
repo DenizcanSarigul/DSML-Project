@@ -75,7 +75,8 @@ Initially, in our tokenizer, we included code to remove the stopwords and puncti
 To construct our model, we used the Pipeline method from the sklearn.pipeline library, in which we inserted our vectorizer, TI-DF transformer, and classification method.  Figure 4, shows and example of the Pipeline we used. 
  
 
-![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/d07f144b-6232-468d-85b6-571405495a54)
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/5ed7df2e-9ed7-4ffa-932a-cacc926347d1)
+
 
 *Figure 4: Pipeline example using Logistic Regression as a classification method*
 
