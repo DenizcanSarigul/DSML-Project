@@ -86,7 +86,7 @@ Figure 5 is the confusion matrix ot our best result with MultinominalNaiveBayes.
 
 ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/60e96485-13d5-4a27-abeb-54eb118d32fc)
 
-*Figure 5: confusion matrix with MultinominalNaiveBayes.
+*Figure 5: confusion matrix with MultinominalNaiveBayes*
 
 ### 3.2 CamamBERT
 We were briefly introduced to NLP models in class for sentiment analysis, but not multi-label classification. We researched different ways of implementing such a model and found a YouTube video tutorial on how to use BERT for text classification. The producer of the video also shared a GitHub repository where we could find all the required material. 
@@ -111,15 +111,24 @@ We start by defining our tokenizer and then the processing begins. Figure 5, is 
 
 
 We then store the encodings into an array and create a new Data Frame. The data is then split, and is then ready to be used for the training.
-The model is defined using AutoModelForSequenceClassification method, and use ‘camambert-base’. Before training, we define our training arguments. For this model, use the epoch method for the evaluation method. Once that’s done, we then define the trainer and run the training.
+The model is defined using AutoModelForSequenceClassification method, and use ‘camambert-base’. Before training, we define our training arguments. 
 
-
-#warmup_steps=200, weight_decay=0.01, Dropout(0.3), learning_rate=3e-5, 
-
+For this model, use the epoch method for the evaluation method. It turns out that the simplicity of our training arguments (Figure 7) resulted in the best accuracies. Previously, we tried optimising our arguments by including warmup_steps, weight_decay, Dropout, learning_rate but this strategy only led to poorer scores. It is worth noting that some combinations worked better than others such as using learning_rate 10e-5 with weight_decay and Dropout rather than learning_rate on it's own. However, globally, fine-tunning the arguments did not yield the results we expected. 
 
 
 ![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/16ebbd86-1ef5-4c52-b7a5-4ef2bfc45b6b)
 
+*Figure 7: training arguments for the camamBert Model*
 
 
+In addition, figure 8 is a graph shows the accuracy performances of different argurment combinations. The graph demonstrates that changing the arguments did not create a variance in accuracies, ultimately not being significantly helpful. 
+
+
+
+*Figure 8: train accuracies graph*
+
+
+#### 3.2.2 Testing 
+
+In addition, we noticed that after the second or third epoch, the model would tend to over-fit. Meaning that the training loss would start to decrease and the validation loss increase. Even if the model would over-fit, the accuracy of the training test and the accuracy of the unlabelled test data would stay at a similar rate, which suggests that the both data sets are similar (come from the same source) wihch would explain why we would get a better result with 10 epochs. Consequently, this would create issues when using the model with external data which isn't similar at all. 
 
