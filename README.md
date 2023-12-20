@@ -137,3 +137,9 @@ During our testing rounds, we noticed that after the second or third epoch, mode
 
 Despite our efforts to achieve better test accuracy, we struggled to improve our best score of 0.581. We tried pre-processing the data in different ways and fine-tuning the arguments, but none of those attempts seemed to work. Overall, the simpler or less detailed our fine-tuning led to better results. This leaves us asking ourselves why our model behaved this way and what we could have done to improve it. Two strategies that we didn't have enough time to try, and that may be helpful, are augmenting the data with new examples to overcome the overfitting problem and trying to create our own neural network model. A simple neural network might help overcome the overfitting problem specific to this data, as Camembert may be too complex for our dataset
 
+
+#### Link to our YouTube video 
+
+[YouTube video]([https://youtu.be/RggW_nbjA-c])
+
+
