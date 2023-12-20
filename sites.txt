@@ -1,6 +1,0 @@
-https://datascience103579984.wordpress.com/2020/01/03/feature-engineering-for-machine-learning-in-python-from-datacamp/4/  
-
-https://youtu.be/IzbjGaYQB-U?si=Jlc357PydcNu0zXO
-
-https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568 
-
