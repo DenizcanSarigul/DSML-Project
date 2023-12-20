@@ -116,6 +116,7 @@ The model is defined using AutoModelForSequenceClassification method, and natura
 
 
 
+![image](https://github.com/DenizcanSarigul/DSML-Project/assets/119871445/16ebbd86-1ef5-4c52-b7a5-4ef2bfc45b6b)
 
 
 
