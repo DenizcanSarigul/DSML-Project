@@ -33,7 +33,7 @@ Once we created our model, we were given a test data set on which we could use t
 
 ## 2. Methodology
 
-For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture (camembert-model.fr, n.d.). 
+For this challenge we applied two kinds of techniques of text representation. The first being a series of models using TI-DF representation, and for the second we used the CamamBERT Natural Language Processing model, which is based off the RoBERTa architecture. 
 
 
 ## 3. Models
